@@ -1,0 +1,64 @@
+#mes-formations {
+	background-color:#709fdc;
+	text-align:center;
+	padding-bottom:0;
+}
+
+#mes-formations p{
+		padding-bottom:20px;
+}
+
+.formations
+{	text-align:center;
+	display:flex;
+    justify-content:space-between;
+     padding:0px;
+ 	 width:70%;
+  	border-radius:6px;
+}
+
+
+.cards{
+	display:grid;
+	grid-template-columns:1fr;
+	grid-gap:8px;
+
+}
+
+.card {
+	text-align:center;
+	padding:8px;
+	border-radius:6px;
+}
+
+
+.card img {
+	width:50%;
+}
+
+
+#photos-iut {
+	width:25%;
+}
+
+#logo-formations{
+	width:200px;
+	height:200px; 
+	border:0px solid black;
+	object-fit:cover;
+	box-shadow:5px 10px 15px 1px grey;
+}
+
+
+@media (min-width:576px) {
+	.cards { 
+	grid-template-columns:1fr 1fr;
+}
+
+@media (min-width:768px) {
+	.cards { 
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+
+

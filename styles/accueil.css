@@ -1,0 +1,60 @@
+.accueil {
+	background-color:#C6E0FF;
+	height:100vh;
+	display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color:black;
+}
+
+.presentation{
+	margin:200px;
+	color:black;
+}
+
+
+#avatar {
+	width:400px;
+	height:400px; 
+	border-radius: 50%;
+	border:0px solid black;
+	object-fit:cover;
+	box-shadow:10px 20px 30px 1px grey;
+	display:flex;
+	margin-left:200px;
+
+}
+
+.btn-blue{
+	color:white ;
+	background-color:blue;
+	padding:8px 16px;
+	border-radius:6px;
+	font-weight:bold;
+	font-size:100%;
+	display:block;
+	width:40%;
+	margin:0 auto;
+	border:1px solid blue;
+	transition:1s;
+}
+
+/*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
+.btn-blue:hover {
+	background-color:white;
+	color:blue;
+	transition:1s;
+}
+
+
+.nom-présentation {
+	display:flex;
+}
+
+.titre1{
+	font-size:xx-large;
+}
+
+.titre2 {
+	font-size:x-large;
+}

@@ -1,0 +1,38 @@
+.contacts {
+	background-color:#000000;
+	text-align:center;
+	padding-bottom:20px;
+
+}
+
+.list-inline-icon {
+	padding:0;
+	list-style:none;
+}
+
+/*a tous les éléments de la classe list-inline, tu leurs appliques ça*/
+.list-inline-icon li {
+	display:inline;
+	margin:0 16px;
+}
+
+
+.fa-brands 
+	{font-size:64px;
+	color:white;
+}
+
+.fa-solid 
+	{font-size:64px;
+	color:white;
+}
+
+
+.fa-brands:hover {
+	color:grey;
+}
+
+.fa-solid:hover {
+	color:grey;
+}
+

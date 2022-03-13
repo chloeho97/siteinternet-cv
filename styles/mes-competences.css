@@ -1,0 +1,27 @@
+.mes-competences{
+	background-color:#071739;
+	height:80px; 
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	padding-bottom:60px;
+}
+
+#mes-competences {
+	background-color:#071739;
+	margin-bottom:0;
+	padding-bottom:50px;
+}
+
+
+.mes-competences img {
+	width:15%;
+}
+
+#img-adobe {
+	width:8%;
+}
+
+#img-office {
+	width:12%;
+}
