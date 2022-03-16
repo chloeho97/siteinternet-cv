@@ -3,142 +3,218 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/style.css">
 	<script src="https://kit.fontawesome.com/0c6458865f.js" crossorigin="anonymous"></script>
+
+	<meta name="description" content="Animation, modélisation & impression 3D.">
+	<meta property="og:title" content="Anormal 3D">
+	<meta property="og:image" content="images/logo-anormal.png">
+	<meta property="og:description" content="Anormal 3D, l'agence 360 qui donne vie à vos projets">
+	<meta property="og:site_name" content="Anormal3D"/>
 </head>
 
 <body>
- <div class="menu">
-		<ul class="list-inline-menu">
-		<li> <a href="#mes-formations"> MES FORMATIONS </a></li>
-		<li> <a href="#mes-experiences"> MES EXPERIENCES </a></li>
-		<li> <a href="#mes-competences"> MES COMPETENCES </a></li>
-		<li> <a href="#contact"> CONTACT </a></li>
-	</ul> </div>
 
+<br>
+<br>
+<br>
+<br>
 
-<div class="accueil" id="accueil">
-	<div>
-		<img src="images/photo-identite.jpeg" alt="photo" id="avatar" />
+	<!-- menu -->
+<div class="list-menu">
+	 <div class="list-menu-gauche">
+		<ul>
+			<li> ACCUEIL </li>
+			<li> QUI SOMMES-NOUS </li>
+			<li> SERVICES </li>
+		</ul> 
 	</div>
-	<div class="presentation">
-		<h1>Site CV de Chloé HO</h1>
-		<br>
-		<h1>Chef de projet marketing digital</h2>
-		<br>
-		<br>
-			<p> Passionnée du Web et des nouvelles technologies depuis des années, je me présente aujourd’hui à vous en tant que chef de projet marketing digital. Un métier qui me permet de mettre à profit mes compétences en gestion de projet et marketing digital. </p>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-			<a href="http://lewagon.com" class="btn-blue"> Téléchargez mon CV </a>
-	</div>			
-</div>	
+
+	<div>
+		<img src="images/logo-anormal.png" alt="logo" id="logo-menu" />
+	</div>
+
+	<div class="list-menu-droite">
+		<ul>
+			<li> PROJETS </li>
+			<li> BLOG </li>
+			<li> CONTACTS </li>
+			<li> RECHERCHER </li>
+		</ul> 
+	</div>
+</div>
 
 
+	<!-- banner -->
+<div id="banner">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+				
+		<h1 class="banner-titre"> Animation, modélisation & impression 3D </h1>
+	<br>
+	<br>
+		<a href="#" class="btn-white">Un projet ? Contactez-nous </a>
+</div>
 
-<div id="mes-formations">
-	<h2>MES FORMATIONS</h2>
-	<div class="container">
+<br>
+
+<div class="container">
+	<h2 class="titre-services">NOS SERVICES</h2>
+		<br>
+		<br>
 		<div class="cards">
 			<div class="card">
-				<img src="images/kedge.png" alt="Logo Kedge BS" id="photos-kedge">
-				<h3>MS Marketing Digital & Data - Kedge BS</h3>
-				<p> Campus Paris - 2021/2022</p>
+				<img src="images/animation3D.jpeg" alt="Animation 3D" id="photos-services">
+				<h3>Animation 3D</h3>
 			</div>
 			<div class="card">
-				<img src="images/kedge.png" alt="Logo Kedge BS" id="photos-kedge">
-				<h3>Programme Grande Ecole - Kedge BS</h3>
-				<p> Campus Bordeaux - 2017/2021</p>
+				<img src="images/modelisation3D.jpeg" alt="Modélisation 3D" id="photos-services">
+				<h3>Modélisation 3D</h3>
 			</div>
 			<div class="card">
-				<img src="images/iut.png" alt="Logo Kedge BS" id="photos-iut">
-				<h3>DUT GEA - IUT Paris Descartes </h3>
-				<p> Paris - 2015/2017</p>
+				<img src="images/impression3D.jpeg" alt="Impression 3D" id="photos-services">
+				<h3>Impression 3D</h3>
 			</div>
 		</div>
+</div>
+
+<br>
+<br>
+<br>
+
+	<!-- projets -->
+
+<div id="projets">
+	<img src="images/projet1.jpg" alt="projet de modélisation 1">
+	<img src="images/projet2.jpg" alt="projet de modélisation 2">		
+	<img src="images/projet3.jpg" alt="projet de modélisation 3">
+	<img src="images/projet4.jpg" alt="projet de modélisation 4">
+</div>
+
+<br>
+
+	<!-- partenaires -->
+
+<h2 id="partenaires">ILS NOUS ONT FAIT CONFIANCE</h2>
+<br>
+	<div class="partenaires-logo">
+		<img src="images/ubisoft.png" alt="partenaire Ubisoft">
+		<img src="images/nestle.png" alt="partenaire Nestlé">
+		<img src="images/loreal.png" alt="partenaire L'Oréal">
+		<img src="images/gameloft.png" alt="partenaire gameloft">
 	</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+	<!-- formulaire de contact -->
+
+<div id="contactez-nous">
+	<h2>CONTACTEZ-NOUS</h2>
+	<h3> ET NOUS VOUS REPONDRONS DANS LES PLUS BREFS DELAIS </h3>
+<br>
+	<form id="formulaire-de-contact" action="#" method="POST" enctype="multipart/form-data">
+		<div class="row">
+			<label class="required" for="name">Votre nom et prénom:</label><br>
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br>
+			<span id="name_validation" class="error_message"></span>
+		</div>
+		<div class="row">
+			<label class="required" for="email">Votre adresse mail:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br>
+			<span id="email_validation" class="error_message"></span>
+	 	 </div>
+	 	 <div class="row">
+			<label class="required" for="message">Votre message:</label><br>
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br>
+			<span id="message_validation" class="error_message"></span>
+	 	 </div>
+   		 <input id="submit_button" type="submit" value="Send email"/>
+	</form>
 </div>
-	
-	
-
-<div class="mes-experiences" id="mes-experiences">
-	<h2>MES EXPERIENCES</h2>
-	<br>
-	<div class="container">
-		<div class="cards-column">
-			<div class="card-column">
-				<img src="images/creditagricole.png" alt="Logo Crédit agricole" id="photos-creditagricole">
-			</div>
-			<div class="card-column">
-				<h3>Chef de projet marketing</h3>
-				<p> Paris - Septembre 2021 à aujourd'hui</p>
-			</div>
-		</div>	
-
-		<div class="cards-column">
-			<div class="card-column">
-				<img src="images/assaabloy.png" alt="Logo Assa Abloy" id="photos-assaabloy">
-			</div>
-			<div class="card-column">
-				<h3>Chef de produit - Business Unit JPM</h3>
-				<p> Montrouge - Aout 2020 à Septembre 2021</p>
-			</div>
-		</div>	
 
 
-		<div class="cards-column">
-			<div class="card-column">
-				<img src="images/vinifera.png" alt="Logo Vinifera" id="photos-vinifera">
-			</div>
-			<div class="card-column">
-				<h3>Responsable Marketing & Communication</h3>
-				<p> Ho-Chi-Minh-Ville - Janvier 2020 à Juillet 2020</p>
-			</div>
-		</div>	
+	<!-- avant-dernière bannière -->
+
+<div class="banner-description"> 
+	<div> 
+		<h3 class="description"> ARTICLES RECENTS </h3>
+			<ul class="list-articles">
+				<li> Quel avenir pour l'impression 3D ? </li>	
+				<li> La modélisation 3D pour les marques : 5 avantages pour la conception de vos projets </li>	
+				<li> Impression 3D pour les marques : un tournant pour la communication ? </li>	
+				<li> Animation 3D : un métier d'avenir</li>	
+			</ul>
+			<br>
+			<br>
+		<h3 class="description">ANORMAL 3D</h3>
+			<p class="description">Anormal est un studio composé de modeleurs et animateurs 3D expérimentés, à votre écoute et votre service pour faire vivre tous vos projets, même les plus fous. En effet, grâce à nos logiciels professionnels (3ds Max, Blender, Maya,etc.), aucun projet n'est impossible.
+			<br>
+			<br>
+			<br>
+			Libérez vos idées les plus folles. Anormal vous accompagne tout le long de vos projets, de la modélisation à l'animation, ou encore même à l'impression 3D. Notre studio 360 vous permet ainsi de réellement donner vie à vos projets, autant numériquement que matériellement. Faites-nous part de vos attentes et nous façonnerons votre projet à l'image de votre univers et vos attentes. 
+			</p>
 	</div>
-</div>
-
-
-<h2 id="mes-competences">MES COMPETENCES</h2>
-	<div class="mes-competences">
-		<br>
-		<br>
-		<br>
-		<img src="https://cdn2.clc2l.fr/t/a/d/adobe-creative-cloud-all-apps-8lf6Bb.png" id="img-adobe">
-		<img src="https://logos-marques.com/wp-content/uploads/2021/03/Google-AdWords-Logo.png" class="img-competences">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Google_Analytics.svg/1200px-Logo_Google_Analytics.svg.png" id="img-analytics">
-		<img src="https://www.openhost-network.com/wp-content/uploads/2017/12/Office-365-Carr%C3%A9.png" id="img-office">
-		<img src="http://assets.stickpng.com/images/58482a62cef1014c0b5e4a13.png" class="img-competences">
-</div>
-
-
-
-<div class="contacts" id="contact">
-	<h2>CONTACTS</h2>
-		<ul class="list-inline-icon">
-			<li>
-				<a href="http://facebook.com"> 
-				<i class="fa-brands fa-facebook-square"></i> 
-				</a>
-			</li>
-			<li>
-				<a href="http://twitter.com"> 
-				<i class="fa-brands fa-twitter-square"></i>
-				</a> 
-			</li>
-			<li>
-				<a href="mailto:ainhi.ho@kedgebs.com"> 
-				<i class="fa-solid fa-envelope"></i>
-				</a>
-			</li>	
+	<div class="coordonnees"> 
+		<h3 class="titre-coordonnees"> NOS COORDONNEES </h3>
+		<ul class="list-coordonnees">
+			<li> 40 Av. des Terroirs de France,75012 PARIS</li>	
+			<li> FRANCE</li>	
+			<li>📞 +33711890087</li>
+			<li>📧 contact@anormal.fr </li>
 		</ul>
 
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10505.4896777713!2d2.3890695!3d48.8320346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd55967c7aabdb62!2sKedge%20Business%20School%20-%20Campus%20Paris!5e0!3m2!1sfr!2sfr!4v1647194867935!5m2!1sfr!2sfr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+</div>
+
+
+	<!-- foot page -->
+
+ <div class="foot-banner">
+ 		<div class="bandeau-end">
+			<ul class='list-bandeau"'>
+				<li> @3D anormal 2022 - Tous droits réservés</li>
+				<li> MENTIONS LEGALES </li>
+				<li> PLAN DU SITE </li>
+				<li> POLITIQUE DE COOKIES (UE) </li>
+			</ul>
+		</div>
+
+		<div>
+			<ul class="icon-end-bandeau">
+				<li>
+					<a href="http://facebook.com"> <i class="fa-brands fa-facebook-square"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com"> <i class="fa-brands fa-twitter-square"></i>
+					</a> 
+				</li>
+				<li>
+					<a href="mailto:ainhi.ho@kedgebs.com"><i class="fa-solid fa-envelope"></i>
+					</a>
+				</li>	
+			</ul>
+		</div>
 </div>
 
 
