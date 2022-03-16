@@ -1,42 +1,47 @@
-/*police google -> ne pas prendre les balises styles*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
-
-@import url("menu.css");
-
 @import url("banner.css");
-
-@import url("services.css");
-
-@import url("projets.css");
-
+@import url("menu.css");
+@import url("accueil.css");
+@import url("mes-formations.css");
+@import url("mes-experiences.css");
+@import url("mes-competences.css");
+@import url("contacts.css");
 @import url("partenaires.css");
 
-@import url("contactez-nous.css");
-
-@import url("banner-description.css");
-
-@import url("end-bandeau.css");
-
-
-
-a	{
-	text-decoration:none;
-}
-
-body { 
-	font-family: 'Montserrat', sans-serif;
+body {
+	text-align:center;
 	margin:0;
-	text-decoration: none;
+	font-family:'Montserrat', sans-serif;
+	}
+
+h1,h2,h3,p {
+	font-family:'Comfortaa', cursive,
 }
 
-h1,h2,h3,li,p {
-	font-family: 'Comfortaa', cursive;
-	text-decoration: none; 
+
+h1 {
+	margin-top:0;
+}
+
+h2 {
+	color:white;
+	margin-top:0;
+	padding-top:20px;
 }
 
 p {
-	font-size:medium;
+	margin-top:0;
+	margin-bottom:0;}
+
+
+
+/*pour enlever tous les soulignements des textes, etc..*/
+a {
+	text-decoration:none
 }
+
+
+
 
 
 
