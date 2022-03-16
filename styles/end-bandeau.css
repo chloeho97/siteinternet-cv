@@ -1,0 +1,53 @@
+.foot-banner {
+	background-color:grey;
+	color:white;
+	padding:0;
+	list-style: none;
+	padding-top:30px;
+	margin:0;
+	font-size:small;
+	font-weight: bolder;	
+	display:flex;
+	justify-content: space-around;
+	margin-top:20px;
+}
+
+.foot-banner li {
+	display:inline;
+	margin:0 16px;
+}
+
+
+.icon-end-bandeau {
+	list-style:none;
+	padding-bottom:30px;
+}
+
+/*a tous les éléments de la classe list-inline, tu leurs appliques ça*/
+.icon-end-bandeau li {
+	display:inline;
+	margin:0 16px;
+	color:white;
+	font-size:30;
+}
+
+
+.fa-brands {
+	font-size:30px;
+	color:white;
+}
+
+.fa-solid {
+	font-size:30px;
+	color:white;
+}
+
+
+.fa-brands:hover {
+	color:black;
+}
+
+.fa-solid:hover {
+	color:black;
+}
+

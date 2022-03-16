@@ -1,0 +1,15 @@
+.partenaires-logo {
+	height:80px; 
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.partenaires-logo img {
+	width:180px;
+}
+
+#partenaires{
+	text-align:center;
+}
+

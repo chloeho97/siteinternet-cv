@@ -1,0 +1,44 @@
+#banner {
+	color:white;
+	height:90vh;
+	background-image:url("../images/banniere.jpg");
+	background-size:cover;
+	background-position:center;
+	align-items:right;
+
+}
+
+
+.banner-titre {
+	text-shadow:1px 3px 1px black;
+	text-align:center;
+	font-size:xx-large;
+}
+
+.btn-white {
+	color: black ;
+	text-align: center;
+	justify-content: right;
+	background-color: white;
+	padding:8px 16px;
+	border-radius:6px;
+	font-weight:bold;
+	font-size:100%;
+	display:block;
+	width:40%;
+	margin:0 auto;
+	border:1px solid pink;
+	transition:1s;
+	width:20%;
+}
+
+
+/*pour animation, changer un statut, changer une propriété au bouton = hover -> survoler*/
+.btn-white:hover {
+	background-color:pink;
+	color:white;
+	transition:1s;
+}
+/*la bannière prend 70% de la bannière
+"../image" -> remonter d'un cran (donc remonter de la fiche style.css au dossier image"*/
+
